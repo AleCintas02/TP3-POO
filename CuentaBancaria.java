@@ -6,7 +6,6 @@ public class CuentaBancaria
     private double saldo;
     private Persona titular;
     
-    
     public CuentaBancaria( int p_nroCuenta, Persona p_titular)
     {
         this.setNroCuenta(p_nroCuenta);
