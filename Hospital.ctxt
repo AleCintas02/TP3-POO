@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Hospital
+comment1.params=
+comment1.target=Hospital()
+comment2.params=
+comment2.target=java.lang.String\ getHospital()
+comment3.params=
+comment3.target=java.lang.String\ getDirector()
+comment4.params=p_paciente
+comment4.target=void\ consultaDatosFiliatorios(Paciente)
+numComments=5
