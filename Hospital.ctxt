@@ -1,11 +1,15 @@
 #BlueJ class context
 comment0.target=Hospital
-comment1.params=
-comment1.target=Hospital()
-comment2.params=
-comment2.target=java.lang.String\ getHospital()
-comment3.params=
-comment3.target=java.lang.String\ getDirector()
-comment4.params=p_paciente
-comment4.target=void\ consultaDatosFiliatorios(Paciente)
-numComments=5
+comment1.params=p_hospital\ p_director
+comment1.target=Hospital(java.lang.String,\ java.lang.String)
+comment2.params=p_hospital
+comment2.target=void\ setHospital(java.lang.String)
+comment3.params=p_director
+comment3.target=void\ setDirector(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getHospital()
+comment5.params=
+comment5.target=java.lang.String\ getDirector()
+comment6.params=p_paciente
+comment6.target=void\ consultaDatosFiliatorios(Paciente)
+numComments=7

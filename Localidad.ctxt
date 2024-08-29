@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Localidad
-comment1.params=
-comment1.target=Localidad()
+comment1.params=p_nombre\ p_provincia
+comment1.target=Localidad(java.lang.String,\ java.lang.String)
 comment2.params=p_nombre
 comment2.target=void\ setNombre(java.lang.String)
 comment3.params=p_provincia
