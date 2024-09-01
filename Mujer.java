@@ -65,10 +65,13 @@ public class Mujer
     
     public void divorcio(){
         this.setEsposo(null);
+        this.setEstadoCivil("Soltera");
+        
     }
     
     public void casarseCon(Hombre p_hombre){
         this.setEsposo(p_hombre);
+        this.setEstadoCivil("Casada");
     }
     
     public String datos(){
@@ -80,7 +83,7 @@ public class Mujer
     }
     
     public void casadaCon(){
-         System.out.println(this.getNombre() + " de " + this.getEdad() + " está casada con " + this.getEsposo() + " de " + this.getEsposo().getEdad());
+         System.out.println(this.getNombre() + " de " + this.getEdad() + " está casada con " + this.getEsposo().getNombre() + " de " + this.getEsposo().getEdad());
     }
 
 

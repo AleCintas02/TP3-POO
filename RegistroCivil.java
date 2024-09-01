@@ -10,6 +10,9 @@ public class RegistroCivil
        H1.mostrarEstadoCivil();
        M1.casarseCon(H1);
        M1.casadaCon();
+       H1.casarseCon(M1);
        H1.casadoCon();
+       M1.mostrarEstadoCivil();
+       H1.mostrarEstadoCivil();
    }
 }
