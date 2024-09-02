@@ -14,5 +14,6 @@ public class RegistroCivil
        H1.casadoCon();
        M1.mostrarEstadoCivil();
        H1.mostrarEstadoCivil();
+       //a
    }
 }
