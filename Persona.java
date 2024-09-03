@@ -7,7 +7,6 @@ public class Persona {
     private int nroDni;
     private String nombre;
     private String apellido;
-    private int anioNacimiento;
     private Calendar fechaNacimiento;
 
     /**
@@ -51,7 +50,9 @@ public class Persona {
     }
 
     private void setAnioNacimiento(int p_anio) {
-        anioNacimiento = p_anio;
+        Calendar nuevaFecha = Calendar.getInstance();
+        nuevaFecha.set(p_anio, 1, 1);
+        this.setFechaNacimiento(nuevaFecha);
     }
 
     public int getDNI() {
@@ -67,7 +68,7 @@ public class Persona {
     }
 
     public int getAnioNacimiento() {
-        return this.anioNacimiento;
+        return this.fechaNacimiento.get(Calendar.YEAR);
     }
     
     public Calendar getFechaNacimiento(){
@@ -82,7 +83,7 @@ public class Persona {
     public int edad() {
         Calendar fechaHoy = new GregorianCalendar();
         int anioHoy = fechaHoy.get(Calendar.YEAR);
-        int edad = anioHoy - anioNacimiento;
+        int edad = anioHoy - this.getAnioNacimiento();
         return edad;
     }
 

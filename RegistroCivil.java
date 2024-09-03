@@ -7,13 +7,8 @@ public class RegistroCivil
        System.out.println(M1.datos());
        System.out.println(H1.datos());
        M1.mostrarEstadoCivil();
-       H1.mostrarEstadoCivil();
-       M1.casarseCon(H1);
-       M1.casadaCon();
        H1.casarseCon(M1);
-       H1.casadoCon();
        M1.mostrarEstadoCivil();
        H1.mostrarEstadoCivil();
-       //a
    }
 }

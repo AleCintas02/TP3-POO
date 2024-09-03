@@ -35,11 +35,11 @@ public class Hombre
         this.edad = p_edad;
     }
     
-    private void setEstadoCivil(String p_estadoCivil){
+    public void setEstadoCivil(String p_estadoCivil){
         this.estadoCivil= p_estadoCivil;
     }
     
-    private void setEsposa(Mujer p_esposa){
+    public void setEsposa(Mujer p_esposa){
         this.esposa = p_esposa;
     }
     
@@ -69,8 +69,11 @@ public class Hombre
     }
     
     public void casarseCon(Mujer p_mujer){
-        this.setEsposa(p_mujer);
-        this.setEstadoCivil("Casado");
+        if(this.getEsposa() == null){
+            this.setEsposa(p_mujer);
+            this.setEstadoCivil("Casado");
+            p_mujer.casarseCon(this);
+        }
     }
     
     public String datos(){
