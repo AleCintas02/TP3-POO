@@ -15,5 +15,6 @@ public class GestionStock
         p1.ajuste(-200);
         p1.mostrar();
         System.out.println(p1.mostrarLinea());
+        //hola
     }
 }
