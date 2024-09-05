@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=GestionHospital
+comment0.text=\r\n\ La\ clase\ GestionHospital\ es\ el\ punto\ de\ entrada\ para\ la\ gesti\u00F3n\ de\ datos\ en\ un\ hospital.\r\n\ Crea\ un\ hospital,\ localidades\ y\ pacientes,\ y\ muestra\ los\ datos\ filiatorios\ de\ un\ paciente.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

@@ -1,4 +1,11 @@
 import java.util.*;
+
+/**
+ * La clase Empresa contiene el método principal para ejecutar un programa de ejemplo que crea instancias de `Empleado` y `EmpleadoConJefe`.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 public class Empresa
 {
      public static void main(String []args){

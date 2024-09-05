@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=RegistroCivil
+comment0.text=\r\n\ La\ clase\ RegistroCivil\ simula\ el\ registro\ civil\ para\ mostrar\ informaci\u00F3n\ sobre\ personas\ y\ su\ estado\ civil.\r\n\ Crea\ instancias\ de\ `Mujer`\ y\ `Hombre`,\ y\ demuestra\ el\ cambio\ en\ el\ estado\ civil\ tras\ un\ matrimonio.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

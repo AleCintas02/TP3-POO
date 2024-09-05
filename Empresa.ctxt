@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Empresa
+comment0.text=\r\n\ La\ clase\ Empresa\ contiene\ el\ m\u00E9todo\ principal\ para\ ejecutar\ un\ programa\ de\ ejemplo\ que\ crea\ instancias\ de\ `Empleado`\ y\ `EmpleadoConJefe`.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

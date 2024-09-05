@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Producto
-comment0.text=\r\n\ Clase\ que\ representa\ un\ producto\ en\ el\ sistema.\r\n\ Incluye\ informaci\u00F3n\ como\ c\u00F3digo,\ rubro,\ descripci\u00F3n,\ costo,\ stock,\ porcentaje\ de\ punto\ de\ reposici\u00F3n,\r\n\ existencia\ m\u00EDnima\ y\ el\ laboratorio\ asociado.\r\n
+comment0.text=\r\n\ Clase\ que\ representa\ un\ producto\ en\ el\ sistema.\r\n\ Incluye\ informaci\u00F3n\ como\ c\u00F3digo,\ rubro,\ descripci\u00F3n,\ costo,\ stock,\ porcentaje\ de\ punto\ de\ reposici\u00F3n,\r\n\ existencia\ m\u00EDnima\ y\ el\ laboratorio\ asociado.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=p_codigo\ p_rubro\ p_desc\ p_costo\ p_stock\ p_porcPtoRepo\ p_existMinima\ p_lab
 comment1.target=Producto(int,\ java.lang.String,\ java.lang.String,\ double,\ int,\ double,\ int,\ Laboratorio)
 comment1.text=\r\n\ Constructor\ de\ la\ clase\ Producto.\r\n\ \r\n\ @param\ p_codigo\ C\u00F3digo\ del\ producto.\r\n\ @param\ p_rubro\ Rubro\ del\ producto.\r\n\ @param\ p_desc\ Descripci\u00F3n\ del\ producto.\r\n\ @param\ p_costo\ Costo\ del\ producto.\r\n\ @param\ p_stock\ Cantidad\ de\ stock\ del\ producto.\r\n\ @param\ p_porcPtoRepo\ Porcentaje\ de\ punto\ de\ reposici\u00F3n.\r\n\ @param\ p_existMinima\ Existencia\ m\u00EDnima\ del\ producto.\r\n\ @param\ p_lab\ Laboratorio\ asociado\ al\ producto.\r\n

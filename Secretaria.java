@@ -1,4 +1,10 @@
-
+/**
+ * Clase que representa una Secretaria que se utiliza para ejecutar un programa que crea un objeto
+ * de la clase `Docente` y un objeto de la clase `Escuela`, y luego imprime un recibo para el docente.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 public class Secretaria
 {
     

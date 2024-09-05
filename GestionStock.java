@@ -1,4 +1,11 @@
-
+/**
+ * Esta clase ejecutable contiene el método principal para la gestión del stock 
+ * de productos en un laboratorio. En este ejemplo, se crean instancias de la clase 
+ * Laboratorio y  Producto, y se muestran sus detalles.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro 
+ */
 public class GestionStock
 {
    public static void main(String[] args) {

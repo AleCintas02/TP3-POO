@@ -5,6 +5,7 @@ import java.util.*;
  * Cuenta con métodos para calcular la antigüedad del empleado, calcular descuentos y adicionales, 
  * obtener el sueldo neto y mostrar información detallada y en formato de línea.
  * 
+ * @author Cintas Alejandro
  * @author Larroza Lautaro
  */
 public class Empleado {

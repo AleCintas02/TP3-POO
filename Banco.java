@@ -1,4 +1,11 @@
-
+/**
+ * Esta clase ejecutable permite interactuar con una cuenta corriente y caja de ahorro de una persona.
+ * Tambien permite realizar operaciones como depósitos, extracciones y 
+ * mostrar información de las cuentas bancaria.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 public class Banco
 {
     public static void main(String []args){

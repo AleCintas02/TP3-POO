@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CrearPunto
+comment0.text=\r\n\ Esta\ clase\ representa\ un\ programa\ que\ permite\ realizar\ operaciones\ con\ objetos\ Punto.\r\n\ Los\ puntos\ son\ creados\ a\ partir\ de\ las\ coordenadas\ ingresadas\ en\ la\ l\u00EDnea\ de\ comandos.\r\n\ El\ programa\ ofrece\ un\ men\u00FA\ de\ opciones\ para\ operar\ con\ los\ puntos.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

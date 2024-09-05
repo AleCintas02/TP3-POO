@@ -1,9 +1,12 @@
 #BlueJ class context
 comment0.target=Docente
+comment0.text=\r\n\ La\ clase\ Docente\ representa\ un\ docente\ con\ informaci\u00F3n\ sobre\ su\ nombre,\ \r\n\ grado,\ sueldo\ b\u00E1sico\ y\ asignaci\u00F3n\ familiar.\ Proporciona\ m\u00E9todos\ para\ calcular\ \r\n\ el\ sueldo\ total\ del\ docente.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Lautaro\ Larroza\r\n
 comment1.params=p_nombre\ p_grado\ p_sueldoBasico
 comment1.target=Docente(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ {@code\ Docente}.\r\n\ Inicializa\ el\ nombre,\ grado\ y\ sueldo\ b\u00E1sico,\ y\ establece\ un\ valor\ predeterminado\ para\ la\ asignaci\u00F3n\ familiar.\r\n\ \r\n\ @param\ p_nombre\ Nombre\ del\ docente.\r\n\ @param\ p_grado\ \ Grado\ del\ docente\ (ej.\ Profesor,\ Licenciado,\ etc.).\r\n\ @param\ p_sueldoBasico\ Sueldo\ b\u00E1sico\ del\ docente.\r\n
 comment10.params=
 comment10.target=double\ calcularSueldo()
+comment10.text=\r\n\ Calcula\ el\ sueldo\ total\ del\ docente\ sumando\ el\ sueldo\ b\u00E1sico\ y\ la\ asignaci\u00F3n\ familiar.\r\n\ \r\n\ @return\ El\ sueldo\ total\ del\ docente.\r\n
 comment2.params=p_nombre
 comment2.target=void\ setNombre(java.lang.String)
 comment3.params=p_grado

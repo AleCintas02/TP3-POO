@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CartaPersona
+comment0.text=\r\n\ La\ clase\ CartaPersona\ contiene\ el\ m\u00E9todo\ principal\ para\ ejecutar\ una\ prueba\ de\ la\ clase\ Persona.\r\n\ Crea\ una\ instancia\ de\ Persona,\ verifica\ si\ es\ su\ cumplea\u00F1os\ y\ muestra\ un\ mensaje\ en\ consecuencia.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

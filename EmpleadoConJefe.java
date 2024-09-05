@@ -1,7 +1,11 @@
 import java.util.*;
 
 /**
- * La clase Empleado representa a un empleado con información personal y salarial.
+ * La clase EmpleadoConJefe representa a un empleado que puede tener un jefe. 
+ * Incluye métodos para calcular el sueldo neto, antigüedad y mostrar información del empleado.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
  */
 public class EmpleadoConJefe {
     private long cuil;
@@ -12,6 +16,16 @@ public class EmpleadoConJefe {
     private Calendar fechaIngreso;
     private EmpleadoConJefe jefe;
     
+    /**
+     * Constructor para un empleado con jefe.
+     * 
+     * @param p_cuil el CUIL del empleado
+     * @param p_apellido el apellido del empleado
+     * @param p_nombre el nombre del empleado
+     * @param p_importe el sueldo básico del empleado
+     * @param p_fecha la fecha de ingreso del empleado
+     * @param p_jefe el jefe del empleado
+     */
     public EmpleadoConJefe(long p_cuil, String p_apellido, String p_nombre, double p_importe, Calendar p_fecha, EmpleadoConJefe p_jefe) {
         this.setCuil(p_cuil);
         this.setApellido(p_apellido);
@@ -22,7 +36,15 @@ public class EmpleadoConJefe {
         this.setJefe(p_jefe);
     }
 
-    
+    /**
+     * Constructor para un empleado sin jefe.
+     * 
+     * @param p_cuil el CUIL del empleado
+     * @param p_apellido el apellido del empleado
+     * @param p_nombre el nombre del empleado
+     * @param p_importe el sueldo básico del empleado
+     * @param p_fecha la fecha de ingreso del empleado
+     */
     public EmpleadoConJefe(long p_cuil, String p_apellido, String p_nombre, double p_importe, Calendar p_fecha) {
         this.setCuil(p_cuil);
         this.setApellido(p_apellido);
@@ -32,6 +54,15 @@ public class EmpleadoConJefe {
         this.setFechaIngreso(p_fecha);
     }
     
+    /**
+     * Constructor para un empleado con un año de ingreso específico.
+     * 
+     * @param p_cuil el CUIL del empleado
+     * @param p_apellido el apellido del empleado
+     * @param p_nombre el nombre del empleado
+     * @param p_importe el sueldo básico del empleado
+     * @param p_anio el año de ingreso del empleado
+     */
     public EmpleadoConJefe(long p_cuil, String p_apellido, String p_nombre, double p_importe, int p_anio) {
         this.setCuil(p_cuil);
         this.setApellido(p_apellido);
@@ -69,7 +100,7 @@ public class EmpleadoConJefe {
         this.anioIngreso = p_anioIngreso;
     }
 
-    public Calendar getFecha() {
+    public Calendar getFechaIngreso() {
         return this.fechaIngreso;
     }
 
@@ -91,10 +122,6 @@ public class EmpleadoConJefe {
 
     public int getAnioIngreso() {
         return this.anioIngreso;
-    }
-    
-    public Calendar getFechaIngreso() {
-        return this.fechaIngreso;
     }
     
     public EmpleadoConJefe getJefe() {
@@ -184,5 +211,4 @@ public class EmpleadoConJefe {
     public String mostrarLinea() {
         return this.getCuil() + " " + this.apeYNom() + " " + this.sueldoNeto();
     }
-    
 }

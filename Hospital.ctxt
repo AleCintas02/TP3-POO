@@ -1,15 +1,20 @@
 #BlueJ class context
 comment0.target=Hospital
+comment0.text=\r\n\ La\ clase\ Hospital\ representa\ un\ hospital\ con\ su\ nombre\ y\ el\ nombre\ del\ director.\r\n\ Proporciona\ m\u00E9todos\ para\ consultar\ datos\ filiatorios\ de\ un\ paciente.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=p_hospital\ p_director
 comment1.target=Hospital(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ Hospital.\r\n\ \r\n\ @param\ p_hospital\ \ Nombre\ del\ hospital.\r\n\ @param\ p_director\ \ Nombre\ del\ director\ del\ hospital.\r\n
 comment2.params=p_hospital
 comment2.target=void\ setHospital(java.lang.String)
 comment3.params=p_director
 comment3.target=void\ setDirector(java.lang.String)
 comment4.params=
 comment4.target=java.lang.String\ getHospital()
+comment4.text=\r\n\ Obtiene\ el\ nombre\ del\ hospital.\r\n\ \r\n\ @return\ Nombre\ del\ hospital.\r\n
 comment5.params=
 comment5.target=java.lang.String\ getDirector()
+comment5.text=\r\n\ Obtiene\ el\ nombre\ del\ director\ del\ hospital.\r\n\ \r\n\ @return\ Nombre\ del\ director.\r\n
 comment6.params=p_paciente
 comment6.target=void\ consultaDatosFiliatorios(Paciente)
+comment6.text=\r\n\ Muestra\ los\ datos\ filiatorios\ de\ un\ paciente.\r\n\ \r\n\ @param\ p_paciente\ \ Paciente\ del\ cual\ se\ consultar\u00E1n\ los\ datos\ filiatorios.\r\n
 numComments=7

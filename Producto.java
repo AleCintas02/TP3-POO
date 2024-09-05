@@ -2,6 +2,9 @@
  * Clase que representa un producto en el sistema.
  * Incluye información como código, rubro, descripción, costo, stock, porcentaje de punto de reposición,
  * existencia mínima y el laboratorio asociado.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
  */
 public class Producto {
 

@@ -1,4 +1,10 @@
-
+/**
+ * La clase GestionHospital es el punto de entrada para la gestión de datos en un hospital.
+ * Crea un hospital, localidades y pacientes, y muestra los datos filiatorios de un paciente.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 public class GestionHospital
 {
     public static void main(String [] args)

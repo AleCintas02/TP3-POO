@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CreaFigura
+comment0.text=\r\n\ Esta\ clase\ representa\ un\ programa\ que\ crea\ y\ opera\ con\ figuras\ geometricas.\r\n\ Permite\ desplazar\ figuras,\ mostrar\ sus\ caracter\u00EDsticas,\ encontrar\ la\ mayor\ y\ calcular\ la\ distancia\ entre\ 2\ figuras\ distintas.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

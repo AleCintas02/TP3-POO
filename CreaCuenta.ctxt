@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=CreaCuenta
+comment0.text=\r\n\ Esta\ clase\ ejecutable\ permite\ interactuar\ con\ una\ cuenta\ bancaria\ y\ realizar\ operaciones\ como\r\n\ dep\u00F3sitos,\ extracciones\ y\ mostrar\ informaci\u00F3n\ de\ la\ cuenta\ bancaria.\r\n\ \r\n\ @author\ Cintas\ Alejandro\r\n\ @author\ Larroza\ Lautaro\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

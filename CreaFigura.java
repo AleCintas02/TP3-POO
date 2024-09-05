@@ -1,4 +1,11 @@
 import java.util.Random;
+/**
+ * Esta clase representa un programa que crea y opera con figuras geometricas.
+ * Permite desplazar figuras, mostrar sus características, encontrar la mayor y calcular la distancia entre 2 figuras distintas.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 
 public class CreaFigura {
     public static void main(String[] args) {

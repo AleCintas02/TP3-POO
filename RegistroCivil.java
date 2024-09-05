@@ -1,4 +1,10 @@
-
+/**
+ * La clase RegistroCivil simula el registro civil para mostrar información sobre personas y su estado civil.
+ * Crea instancias de `Mujer` y `Hombre`, y demuestra el cambio en el estado civil tras un matrimonio.
+ * 
+ * @author Cintas Alejandro
+ * @author Larroza Lautaro
+ */
 public class RegistroCivil
 {
    public static void main(String []args){
