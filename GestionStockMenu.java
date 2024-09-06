@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class CrearProducto {
+public class GestionStockMenu {
     public static void main(String[] args) {
-        //Laboratorio lab1 = new Laboratorio("Colgate S.A", "Scalabrini Ortiz 5524", "54-11-4239-8447", 2, 100);
-        //Producto p1 = new Producto(1, "Perfumería", "Jabón Deluxe", 5.25, 500, 15.0, 10, lab1);
-        /*p1.mostrar();
+        Laboratorio lab1 = new Laboratorio("Colgate S.A", "Scalabrini Ortiz 5524", "54-11-4239-8447", 2, 100);
+        Producto p1 = new Producto(1, "Perfumería", "Jabón Deluxe", 5.25, 500, 15.0, 10, lab1);
+        p1.mostrar();
         System.out.println(p1.mostrarLinea());
 
         Scanner scanner = new Scanner(System.in);
@@ -34,6 +34,6 @@ public class CrearProducto {
             }
         } while (opcion != 2);
 
-        scanner.close();*/
+        scanner.close();
     }
 }

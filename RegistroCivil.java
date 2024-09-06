@@ -8,13 +8,27 @@
 public class RegistroCivil
 {
    public static void main(String []args){
-       Mujer M1 = new Mujer("María", "Gómez", 28);
-       Hombre H1 = new Hombre("Pedro", "Leyes", 29);
-       System.out.println(M1.datos());
-       System.out.println(H1.datos());
-       M1.mostrarEstadoCivil();
-       H1.casarseCon(M1);
-       M1.mostrarEstadoCivil();
-       H1.mostrarEstadoCivil();
+        Mujer Mujer1 = new Mujer("María", "Gómez", 28);
+        Hombre Hombre1 = new Hombre("Pedro", "Leyes", 29);
+       
+        System.out.println(Mujer1.datos());
+        System.out.println(Hombre1.datos());
+       
+        Mujer1.casadaCon();
+        Hombre1.casadoCon();
+       
+        Mujer1.casarseCon(Hombre1);
+        
+        Mujer1.casadaCon();
+        Hombre1.casadoCon();
+        
+        System.out.println("\nDivorcio");
+        Mujer1.divorcio();
+        
+        Mujer1.casadaCon();
+        Hombre1.casadoCon();
+        
+        
+       
    }
 }

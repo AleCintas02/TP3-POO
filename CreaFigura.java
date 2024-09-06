@@ -13,7 +13,7 @@ public class CreaFigura {
         System.out.println("-> Círculo 1");
         Random random1 = new Random();
         double radio1 = random1.nextDouble() * 100.0;
-        Punto punto1 = new Punto(0.0, 0.0);
+        Punto punto1 = new Punto();
         Circulo circulo1 = new Circulo(radio1, punto1);
         circulo1.mostrar();
         circulo1.desplazar(-240, -230);

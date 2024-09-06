@@ -58,7 +58,7 @@ public class Persona {
      * @param p_dni Número de DNI de la persona.
      */
     private void setDNI(int p_dni) {
-        nroDni = p_dni;
+        this.nroDni = p_dni;
     }
 
     /**
@@ -67,7 +67,7 @@ public class Persona {
      * @param p_nombre Nombre de la persona.
      */
     private void setNombre(String p_nombre) {
-        nombre = p_nombre;
+        this.nombre = p_nombre;
     }
 
     /**
@@ -76,7 +76,7 @@ public class Persona {
      * @param p_apellido Apellido de la persona.
      */
     private void setApellido(String p_apellido) {
-        apellido = p_apellido;
+        this.apellido = p_apellido;
     }
 
     /**
@@ -153,7 +153,7 @@ public class Persona {
      * @return Nombre y apellido de la persona.
      */
     public String nomYApe() {
-        return nombre + " " + apellido;
+        return this.getNombre() + " " + this.getApellido();
     }
     
     /**
@@ -165,8 +165,8 @@ public class Persona {
         Calendar hoy = new GregorianCalendar();
         int diaHoy = hoy.get(Calendar.DAY_OF_MONTH);
         int mesHoy = hoy.get(Calendar.MONTH); 
-        int diaNacimiento = fechaNacimiento.get(Calendar.DAY_OF_MONTH);
-        int mesNacimiento = fechaNacimiento.get(Calendar.MONTH);
+        int diaNacimiento = this.getFechaNacimiento().get(Calendar.DAY_OF_MONTH);
+        int mesNacimiento = this.getFechaNacimiento().get(Calendar.MONTH);
 
         return diaHoy == diaNacimiento && mesHoy == mesNacimiento;
     }
@@ -175,7 +175,7 @@ public class Persona {
      * Muestra la información de la persona, incluyendo nombre, apellido, DNI y edad.
      */
     public void mostrar() {
-        System.out.println("nombre y apellido: " + nomYApe() + " DNI: " + nroDni + " Edad: " + edad());
+        System.out.println("nombre y apellido: " + this.nomYApe() + " DNI: " + this.getDNI() + " Edad: " + this.edad());
     }
 }
 

@@ -173,12 +173,12 @@ public class Empleado {
      * @return true si es el aniversario, false en caso contrario.
      */
     public boolean esAniversario(){ 
-        Calendar fechaHoy = Calendar.getInstance();
-        int diaHoy = fechaHoy.get(Calendar.DATE);
-        int mesHoy = fechaHoy.get(Calendar.MONTH);
-        int diaIngreso = this.getFechaIngreso().get(Calendar.DATE);
-        int mesIngreso = this.getFechaIngreso().get(Calendar.MONTH)-1;
-        
-        return diaHoy == diaIngreso && mesHoy == mesIngreso;
-    }
+    Calendar fechaHoy = Calendar.getInstance();
+    int diaHoy = fechaHoy.get(Calendar.DATE);
+    int mesHoy = fechaHoy.get(Calendar.MONTH);
+    int diaIngreso = this.getFechaIngreso().get(Calendar.DATE);
+    int mesIngreso = this.getFechaIngreso().get(Calendar.MONTH);
+    
+    return diaHoy == diaIngreso && mesHoy == mesIngreso;
+}
 }

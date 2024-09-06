@@ -112,9 +112,12 @@ public class Mujer
     /**
      * Realiza el divorcio de la mujer, estableciendo su estado civil como "Soltera" y sin esposo.
      */
-    public void divorcio(){
-        this.setEsposo(null);
-        this.setEstadoCivil("Soltera");
+    public void divorcio() {
+        if (this.getEsposo() != null) {
+            this.getEsposo().setEsposa(null);
+            this.setEstadoCivil("Soltera");
+            this.setEsposo(null);  
+        }
     }
     
     /**

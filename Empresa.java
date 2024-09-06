@@ -9,9 +9,10 @@ import java.util.*;
 public class Empresa
 {
      public static void main(String []args){
-         Calendar fechaIngreso = new GregorianCalendar(2024, Calendar.SEPTEMBER, 02);
-         Empleado E1 = new Empleado(20445420205L, "Cintas", "Alejandro", 50000.0, fechaIngreso);
-         System.out.println(E1.esAniversario());
+         Calendar fechaIngreso = new GregorianCalendar(2022, Calendar.SEPTEMBER, 06);
+         Empleado E1 = new Empleado(20445420205L, "Jorge", "Perez", 50000.0, fechaIngreso);
+         E1.mostrar();
+         System.out.println(E1.esAniversario() ? "\nPermiso de salida!" : "\nNo es aniversario");
          
          Calendar fechaIngreso2 = new GregorianCalendar(2023, Calendar.SEPTEMBER, 02);
          EmpleadoConJefe Jefe = new EmpleadoConJefe(20445420205L, "Cintas", "Alejandro", 50000.0, fechaIngreso2);

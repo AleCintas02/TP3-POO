@@ -87,9 +87,12 @@ public class Hombre
     /**
      * Realiza un divorcio, eliminando la esposa y cambiando el estado civil a "Soltero".
      */
-    public void divorcio(){
-        this.setEsposa(null);
-        this.setEstadoCivil("Soltero");
+     public void divorcio() {
+        if (this.esposa != null) {
+            this.esposa.setEsposo(null); 
+            this.setEstadoCivil("Soltero");
+            this.setEsposa(null); 
+        }
     }
     
     /**
