@@ -12,7 +12,6 @@ public class EmpleadoConJefe {
     private String apellido;
     private String nombre;
     private double sueldoBasico;
-    private int anioIngreso;
     private Calendar fechaIngreso;
     private EmpleadoConJefe jefe;
     
@@ -96,8 +95,9 @@ public class EmpleadoConJefe {
     }
 
 
-    private void setAnioIngreso(int p_anioIngreso) {
-        this.anioIngreso = p_anioIngreso;
+    private void setAnioIngreso(int p_anio){
+        this.fechaIngreso = Calendar.getInstance();
+        this.fechaIngreso.set(p_anio, 1, 1);
     }
 
     public Calendar getFechaIngreso() {
@@ -120,8 +120,8 @@ public class EmpleadoConJefe {
         return this.sueldoBasico;
     }
 
-    public int getAnioIngreso() {
-        return this.anioIngreso;
+    public int getAnioIngreso(){
+        return this.fechaIngreso.get(Calendar.YEAR);
     }
     
     public EmpleadoConJefe getJefe() {
@@ -151,11 +151,10 @@ public class EmpleadoConJefe {
      * 
      * @return la antigüedad del empleado en años
      */
-    public int antiguedad() {
+    public int antiguedad(){
         Calendar fechaHoy = new GregorianCalendar();
-        int anioHoy = fechaHoy.get(Calendar.YEAR);
-        int anioIngreso = this.getFechaIngreso().get(Calendar.YEAR);
-        return anioHoy - anioIngreso;
+        int anioActual = fechaHoy.get(Calendar.YEAR);
+        return anioActual - this.getAnioIngreso();
     }
 
     /**
